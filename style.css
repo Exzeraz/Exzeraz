@@ -19,12 +19,6 @@ body {
     padding: 5px 70px;
 }
 
-.navbar-top a {
-    color: white;
-    text-decoration: none;
-    font-size: 0.9rem;
-}
-
 .nav-top-menu-right {
     display: flex;
     justify-content: space-between;
@@ -38,6 +32,8 @@ body {
     width: 100px;
     display: flex;
     justify-content: center;
+    color: white;
+    text-decoration: none;
 }
 
 .nav-r-1 {
@@ -169,7 +165,6 @@ body {
         width: 60px;
         height: 40px;
         align-items: center;
-        border: 1px solid red;
         justify-content: center;
     }
     .nav-search {
@@ -189,7 +184,6 @@ body {
         align-items: center;
         margin-right: 10%;
         /* padding: 10px; */
-        border: 1px solid red;
     }
     .pushcart {
         width: 20px;
@@ -202,7 +196,10 @@ body {
         justify-content: center;
         padding: 2px 2px;
     }
-
+    .right-a {
+        font-size: 0.6rem;
+        color: white;
+    }
     ::placeholder {
         font-size: 0.7rem;
     }
