@@ -156,34 +156,43 @@ body {
         width: 100%;
         padding: 0px 15px;
         padding-right: 25px;
-        height: 60px;
+        height: 40px;
+    }
+
+    .navbar li {
+        display: flex;
+        align-items: center;
     }
     .nav-home {
         margin: 5px;
-        font-size: 1rem;
-        width: 70px;
+        font-size: 0.8rem;
+        width: 60px;
+        height: 40px;
+        align-items: center;
+        border: 1px solid red;
         justify-content: center;
     }
     .nav-search {
-        height: 35px;
-        width: 65%;
-        font-size: 1rem;
+        height: 25px;
+        width: 75%;
+        font-size: 0.8rem;
     }
     .nav-search-button {
         position: unset;
-        height: 35px;
-        width: 55px;
+        height: 25px;
+        width: 25px;
     }
     .nav-search-form {
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        margin-right: 5px;
-        padding: 10px;
+        margin-right: 10%;
+        /* padding: 10px; */
+        border: 1px solid red;
     }
     .pushcart {
-        width: 25px;
+        width: 20px;
     }
     .nav-top-home {
         display: none;
@@ -192,5 +201,9 @@ body {
         display: flex;
         justify-content: center;
         padding: 2px 2px;
+    }
+
+    ::placeholder {
+        font-size: 0.7rem;
     }
 }
