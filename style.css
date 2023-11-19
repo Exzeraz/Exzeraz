@@ -194,7 +194,7 @@ body {
     .navbar-top {
         display: flex;
         justify-content: center;
-        padding: 2px 2px;
+        /* padding: 2px 2px */
     }
     .right-a {
         font-size: 0.7rem;
