@@ -145,6 +145,7 @@
     font-size: 0.8rem;
     background-color: #ff114e;
     color: white;
+    font-family: Kanit;
 }
 
 .form-footer {
@@ -234,18 +235,19 @@
         width: 100%;
         margin-top: 20px;
         font-size: 0.8rem;
+        padding: 4px 20px;
     }
     .form-label {
         /* display: none; */
         margin: 0px;
-        top:35px;
+        top:30px;
         left: 15px;
         font-size: 0.8rem;
     }
     .form-label-name {
         /* display: none; */
         margin: 0px;
-        top:35px;
+        top:30px;
         left: 15px;
     }
     .form-name-control {
@@ -269,9 +271,9 @@
     .form-button-control {
         width: 80%;
     }
-    .form-button-1 {
+    /* .form-button-1 {
         margin-right: 3%;
-    }
+    } */
     .form-footer {
         width: 80%;
     }
@@ -298,6 +300,7 @@
     }
     .form-button {
         font-size: 0.7rem;
+        width: 49%;
     }
     .form-footer p , .form-footer-a {
         font-size: 0.7rem;
