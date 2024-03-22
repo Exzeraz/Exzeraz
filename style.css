@@ -1,0 +1,96 @@
+body {
+    font-family: Roboto;
+}
+
+.slide-container {
+    width: 1600px;
+    height: 450px;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top: 20%;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.image-container {
+    padding: 5px;
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+}
+
+.images {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: 0.3s;
+    left: 0;
+    top: 0;
+}
+
+.button-container {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    top: 40%;
+    left:0;
+
+}
+
+.back, .next {
+    font-size: 45px;
+    height: 60px;
+    width: 60px;
+    border: none;
+    background-color: unset;
+    cursor: pointer;
+    font-family: Roboto;
+    box-sizing: border-box;
+    line-height: 0;
+    color: white;
+    background-color: black;
+    opacity: 0.7;
+    border-radius: 5px;
+    margin: 15px;
+}
+
+.button-dis {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.dots {
+    width: 100%;
+    height: 70px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.dot {
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    background-color: black;
+    margin: 0 20px 0 20px;
+    opacity: 0.6;
+    cursor: pointer;
+    outline: 0px solid ;
+    transition: 0.1s;
+}
+
+.dot-active {
+    background-color: unset;
+    outline: 5px solid aliceblue;
+}

@@ -1,1 +1,36 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"/><link rel="icon" href="/favicon.ico"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="theme-color" content="#000000"/><meta name="description" content="Web site created using create-react-app"/><link rel="apple-touch-icon" href="/logo192.png"/><link rel="manifest" href="/manifest.json"/><title>Exzeraz</title><script defer="defer" src="/static/js/main.8c8a1ec3.js"></script><link href="/static/css/main.e6c13ad2.css" rel="stylesheet"></head><body><noscript>You need to enable JavaScript to run this app.</noscript><div id="root"></div></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>slide image3</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="icon" href="https://yt3.googleusercontent.com/z0YHl4cwvnOnuRXPNoFX-FWVA96WAniD-5ukCsBoKlN5A1w_OEdXf_oKUDA-0kAYJuKG09pa=s900-c-k-c0x00ffffff-no-rj">
+</head>
+<body>
+    <div class="slide-container">
+        <div class="image-container" id="image-container">
+            <img class="images" src="https://images.unsplash.com/photo-1707845690193-ec178cf78041?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" >
+            <img class="images" src="https://images.unsplash.com/photo-1708281789753-a414433ea272?q=80&w=2095&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" >
+            <img class="images" src="https://images.unsplash.com/photo-1682686579688-c2ba945eda0e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" >
+            <img class="images" src="https://images.unsplash.com/photo-1682687221175-fd40bbafe6ca?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" >
+        </div>
+
+        <div class="dots">
+            <div class="dot dot-active" onclick="dot_click(1)"></div>
+            <div class="dot" onclick="dot_click(2)"></div>
+            <div class="dot" onclick="dot_click(3)"></div>
+            <div class="dot" onclick="dot_click(4)"></div>
+        </div>
+
+        <div class="button-container">
+            <button class="back" onclick="backslide(-1)" id="back">&#10094;</button>
+            <button class="next" onclick="nextslide(1)" id="next">&#10095;</button>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
